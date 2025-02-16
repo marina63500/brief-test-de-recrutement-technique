@@ -1,11 +1,7 @@
-let gender = "homme";
-let height = 150;
-let age = 10;
+let temperature = 134
 
-if (gender === "homme"){
-    console.log("j'ai" + " " + age +" "+ "ans," + " " + "je mesure" + " " + height + " "+ "centimètres et je suis un " + gender+".");
-} else{
-    console.log("j'ai" + " " + age +" "+ "ans," + " " + "je mesure" + " " + height + " "+ "centimètres et je suis une" + gender+".");
-}
-
-
+if(temperature<0){
+    console.log("l'eau est solide")
+} else if(temperature>100){
+console.log("l'eau est à l'état de gaz")
+}else console.log("l'eau est liquide")

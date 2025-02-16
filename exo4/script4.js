@@ -1,8 +1,15 @@
-let age = 19;
-let height = 160
+let test = getPourcentage(100, 10);
+// console.log(test);
 
-if(age>18 && height>140){
-    console.log("je peux rentrer dans le manège.");
-}else{
-    console.log("je n'ai pas le droit de rentrer dans le manège.");
+getPourcentage(150, 10);
+getPourcentage(100, 20);
+
+
+
+
+function getPourcentage(prix, fixedPourcentage){
+    let pourcentage = fixedPourcentage/100;
+    let prixsolder = prix-(prix*pourcentage);
+    
+    return prixsolder;
 }

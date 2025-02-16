@@ -1,11 +1,27 @@
-let variable1 = 10
-let variable2 = 5
+let ArrayNumber = [];
+let sum = 0;
 
-if (variable1<variable2){
-    console.log(variable1);
-    }   else if(variable2<variable1){
-            console.log(variable2);
-        } else{
-            console.log("c'est les mêmes")
-        }
+
+if(ArrayNumber.length==0){
+   console.log(0) 
+        
+ 
+} else {
+    for(let i = 0; i < ArrayNumber.length; i++){
+        sum = sum += ArrayNumber[i];
+    } 
+    let average = sum / ArrayNumber.length ;
+    console.log(average)
+}
+
+
+
+
+
+  
     
+
+
+
+  
+
